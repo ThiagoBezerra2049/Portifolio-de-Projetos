@@ -5,7 +5,7 @@ import pandas as pd
 st.title('Análise de Performance por Departamento')
 
 # Carregar o CSV
-csv_file = 'C:\\Users\\mcgju\\Downloads\\employee_performance.csv'  # certifique-se que o arquivo está na mesma pasta que o app.py
+csv_file = 'employee_performance.csv'  # certifique-se que o arquivo está na mesma pasta que o app.py
 df = pd.read_csv(csv_file)
 
 # Exibir os dados
